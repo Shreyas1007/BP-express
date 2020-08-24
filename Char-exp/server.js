@@ -10,7 +10,7 @@ var len = string.length;
 var count;
 
 
-for(i=0;i<string.length;i++){
+for(i=0;i<len;i++){
 
   ch = string.charAt(i);
   count = counts[ch];
@@ -21,7 +21,7 @@ for(i=0;i<string.length;i++){
 
 
 for (ch in counts){
-    console.log(ch + " count is :" + counts[ch]);
+    return(ch + " count is :" + counts[ch]);
 
 }
 

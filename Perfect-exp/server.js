@@ -17,10 +17,10 @@ const express = require("express");
     }
     
     if(sum === number && sum!==0){
-        console.log( number + " is perfect number")
+        return( number + " is perfect number")
     }
     else{
-        console.log(number + " is not perfect number")
+        return(number + " is not perfect number")
     }
     
     };
